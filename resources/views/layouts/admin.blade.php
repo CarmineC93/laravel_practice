@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Practice</title>
+    <title>Dogs</title>
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
@@ -62,10 +62,10 @@
                             </li>
 
                             {{-- <li class="nav-item">
-                                <a class="nav-link text-white {{ Route::currentRouteName() === 'admin.projects.index' ? 'bg-secondary' : '' }}"
-                                    href="{{ route('admin.projects.index') }}">
+                                <a class="nav-link text-white {{ Route::currentRouteName() === 'admin.dogs.index' ? 'bg-secondary' : '' }}"
+                                    href="{{ route('admin.dogs.index') }}">
                                     <i class="fa-solid fa-list"></i>
-                                    Practice
+                                    Dogs
                                 </a>
                             </li> --}}
 
