@@ -24,7 +24,7 @@ Route::get('admin/', [DashboardController::class, 'index'])->middleware(['auth',
 
 Route::middleware(['auth', 'verified'])->prefix('admin')->name('admin.')->group(function () {
     Route::get('/admin', [DashboardController::class, 'index'])->name('dashboard');
-    Route::resource('dogs', DogController::class);
+    Route::resource('dogs', DogController::class)->parameters(['dogs' => 'dog:slug']);
 });
 
 require __DIR__ . '/auth.php';

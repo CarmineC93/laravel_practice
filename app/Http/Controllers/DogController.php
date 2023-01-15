@@ -15,7 +15,8 @@ class DogController extends Controller
      */
     public function index()
     {
-        //
+        $dogs = Dog::all();
+        return view('admin.dogs.index', compact('dogs'));
     }
 
     /**
@@ -25,7 +26,7 @@ class DogController extends Controller
      */
     public function create()
     {
-        //
+        return view('admin.dogs.create');
     }
 
     /**
@@ -47,7 +48,7 @@ class DogController extends Controller
      */
     public function show(Dog $dog)
     {
-        //
+        return view('admin.dogs.show', compact('dogs'));
     }
 
     /**

@@ -61,13 +61,13 @@
                                 </a>
                             </li>
 
-                            {{-- <li class="nav-item">
+                            <li class="nav-item">
                                 <a class="nav-link text-white {{ Route::currentRouteName() === 'admin.dogs.index' ? 'bg-secondary' : '' }}"
                                     href="{{ route('admin.dogs.index') }}">
                                     <i class="fa-solid fa-list"></i>
                                     Dogs
                                 </a>
-                            </li> --}}
+                            </li>
 
 
                         </ul>
